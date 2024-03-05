@@ -6,6 +6,7 @@ __pycache__/
 toc_notifications_2023_1991
 qdrant_storage;C
 rbi
+.pkl
 # C extensions
 *.so
 
