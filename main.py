@@ -19,16 +19,16 @@ app.add_middleware(
 )
 
 qdrant_client = QdrantClient(
-    url="https://d72d961b-81eb-48a6-ad16-e0beef6a4757.us-east4-0.gcp.cloud.qdrant.io",
-    api_key="axZG5S1RWjcm2fOMGfZ4fK-vBnCduDnAFdFTf0omx9jiNFTkBsfd8A",
+    url="...",
+    api_key="...",
 )
 
 embeddings = HuggingFaceInferenceAPIEmbeddings(
-    api_key="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",
+    api_key="...",
     model_name="BAAI/bge-base-en-v1.5",
 )
 
-llm = OpenAI(openai_api_key="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")
+llm = OpenAI(openai_api_key="...")
 
 prompt_template = """
 Use the following pieces of information to answer the user's question.
