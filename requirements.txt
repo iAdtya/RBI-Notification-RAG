@@ -1,0 +1,9 @@
+ unstructured
+ lxml
+ langchain_community
+ beautifulsoup4
+ cohere
+ qdrant-client
+ huggingface_hub
+ pip install "uvicorn[standard]"
+ pip install python-dotenv
