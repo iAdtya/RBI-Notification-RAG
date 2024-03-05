@@ -1,7 +1,7 @@
 import voyageai
 import time
 
-vo = voyageai.Client(api_key="pa-W5jd7owZUvE6znXHG_Nus0EiUM6TcE_vjFWL-LvKDZk")
+vo = voyageai.Client(api_key="...")
 
 batch_size = 128
 embeddings = []
