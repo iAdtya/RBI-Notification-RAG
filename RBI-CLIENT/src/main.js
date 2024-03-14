@@ -38,9 +38,8 @@ const Landing = () => {
                 RBI-Notification-RAG!!
               </h1>
               <p className="py-6 text-white">
-                Web-Summarize is a bot which summarizes any website with the URL
-                by scraping the dom with puppeter and summarizing with the help
-                of gpt 3.5 turbo model!!
+                RBI notification is a Rag system Trained on more than 12,000 html documents and 40 million tokens
+                to perform similarity search and answer query in natural language !!
               </p>
               <form
                 onSubmit={handleSubmit}
@@ -61,12 +60,6 @@ const Landing = () => {
               <div className="flex flex-col items-center mt-10">
                 <div className="card w-80vh bg-primary text-primary-content">
                   <div className="card-body  flex justify-center items-center">
-                    {/* {loading ? (
-                      <span className="loading loading-ring w-14 h-14"></span>
-                    ) : summary ? (
-                      ) : (
-                        <p>Please click summarize</p>
-                      )} */}
                     <p>
                       <span className="font-bold">Query:</span> {summary.query}
                     </p>
