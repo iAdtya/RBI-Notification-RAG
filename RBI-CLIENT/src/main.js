@@ -30,7 +30,7 @@ const Landing = () => {
   };
   return (
     <>
-      <div className="flex justify-center mt-40">
+      <div className="flex justify-center mt-20">
         <div className="grid grid-cols-3 gap-4">
           <div className="col-start-2 flex items-center justify-center">
             <div className="text-center max-w-2xl ">
